@@ -1,7 +1,13 @@
 const { v1: Uuidv1 } = require('uuid');
+
 const JWT = require('../utils/jwtDecoder');
+
 const SFClient = require('../utils/sfmc-client');
+
 const logger = require('../utils/logger');
+
+var request = require('request');
+
 var resStatus;
 
 /**
